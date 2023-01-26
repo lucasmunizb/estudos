@@ -8,8 +8,12 @@ class Rota
 
     public function __construct()
     {
-        $rotaInicial = explode('sistema/',self::getUrl())[1];
-        $rota = explode('/',$rotaInicial);
+        $rotaInicial = explode('sistema/',self::getUrl());
+        if (!isset($rotaInicial[1])) {
+            echo "404";
+            exit;
+        }
+        $rota = explode('/',$rotaInicial[1]);
         if (!file_exists(dirname(__DIR__)."/sistema/$rota[0].php")) {
             echo "404";
             exit;

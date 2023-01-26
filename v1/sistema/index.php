@@ -7,7 +7,5 @@ require_once dirname(__DIR__).'/vendor/autoload.php';
 use Classes\Rota;
 
 $Rota = new Rota();
-
+$_GET['parametro'] = $Rota->getParametro();
 require $Rota->getArquivo();
-
-

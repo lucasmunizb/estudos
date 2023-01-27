@@ -3,7 +3,7 @@
         'name' => 'lucas/v1',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '0eb83875405ded7721d262cd7a2deaae19aa11f3',
+        'reference' => 'f1b8a6f957a2d7ae39cbca9631ef487f4bedf86d',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -40,7 +40,7 @@
         'lucas/v1' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '0eb83875405ded7721d262cd7a2deaae19aa11f3',
+            'reference' => 'f1b8a6f957a2d7ae39cbca9631ef487f4bedf86d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

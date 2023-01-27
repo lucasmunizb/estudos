@@ -10,7 +10,7 @@
     "autoload": {
         "psr-4": {
             "Classes\\" : "Classes/",
-            "Utilitarios\\" : "vendor/Utilitarios"
+            "Utilitarios\\" : "vendor/"
         }
     },
     "minimum-stability": "stable",

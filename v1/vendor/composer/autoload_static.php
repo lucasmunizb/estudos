@@ -38,12 +38,12 @@ class ComposerStaticInit5dec06bf0081a71c0e196e5e130c2a22
     public static $prefixDirsPsr4 = array (
         'Utilitarios\\' => 
         array (
-            0 => __DIR__ . '/..' . '/Utilitarios',
+            0 => __DIR__ . '/../..' . '/vendor',
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (

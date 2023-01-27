@@ -1,0 +1,17 @@
+{
+  "name": "lucas/v2",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lucas Muniz",
+      "email": "lucasmunizbraga@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Classes\\" : "Classes/",
+      "Utilitarios\\" : "vendor/"
+    }
+  },
+  "minimum-stability": "stable"
+}

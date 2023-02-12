@@ -1,8 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+  <component name="ChangeListManager">
+    <list default="true" id="e1417081-b664-4371-afc1-b8be5d4df829" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/v1/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/v1/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/v1/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/v1/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/v1/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/v1/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/v1/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/v1/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/v1/vendor/composer" />
+      <path value="$PROJECT_DIR$/v1/vendor/ralouphie/getallheaders" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2LeC5H6tg1cimFnaSS139I2kKsP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1417081-b664-4371-afc1-b8be5d4df829" name="Changes" comment="" />
+      <created>1676221978372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676221978372</updated>
+      <workItem from="1676221979488" duration="18000" />
+    </task>
+    <servers />
+  </component>
 </project>

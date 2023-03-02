@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1417081-b664-4371-afc1-b8be5d4df829" name="Changes" comment="" />
+    <list default="true" id="e1417081-b664-4371-afc1-b8be5d4df829" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V3/gerador.php" beforeDir="false" afterPath="$PROJECT_DIR$/V3/gerador.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V3/query.php" beforeDir="false" afterPath="$PROJECT_DIR$/V3/query.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +82,9 @@
       <workItem from="1677289885344" duration="781000" />
       <workItem from="1677347785354" duration="17727000" />
       <workItem from="1677378760350" duration="2035000" />
+      <workItem from="1677426491389" duration="2387000" />
+      <workItem from="1677592896038" duration="760000" />
+      <workItem from="1677597922351" duration="599000" />
     </task>
     <servers />
   </component>

@@ -4,15 +4,18 @@ ini_set('error_reporting', E_ALL);
 $conexaoPdo = new PDO('mysql:host=localhost','root','password');
 require 'query.php';
 
-if(isset($_POST['log_banco'])) {
-    $_POST['tabelas_log'] = 'tblog'.substr($_POST['tabelas'],2);
+$_POST['tabelas_log'] = 'tblog'.substr($_POST['tabelas'],2);
+
+if(isset($_POST['log_banco']) && substr($_POST['tabelas'],0,5) != 'tblog') {
     $verificarExistenciaLog = buscarTabela($_POST,$conexaoPdo);
     if(!$verificarExistenciaLog) {
         $retorno = criarTabelaLog($_POST,$conexaoPdo);
     }
 }
+
 if(isset($_POST['arquivo'])) {
     mkdir('./Arquivos/Model',0777);
+    $colunas = buscarColunas($_POST,$conexaoPdo);
     $nomeArquivo= ucfirst(substr($_POST['tabelas'],2));
     file_put_contents("./Arquivos/Model/{$nomeArquivo}Model.php",'');
     mkdir('./Arquivos/View',0777);
